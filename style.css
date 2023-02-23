@@ -1,6 +1,15 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
 body{
     background-color: #1f2937;
     color: white;
+}
+
+header{
+    box-sizing: border-box;
+    /* margin-left: 60px; */
 }
 
 h2{
@@ -8,12 +17,13 @@ h2{
     font-weight:bolder;
     color: #f9faf8;
     display: inline-block;
+    float: left;
 }
 
 ul{
     display: inline-block;
     float: right;
-    text-align: center;
+    align-items: center;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -23,9 +33,46 @@ a{
     color: #e5e7eb;
     text-decoration: none;
     justify-self: end;
-    margin: 20px;
+    margin: 10px;
 }
 
 h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    height: 40px;
+    width: 90px;
+    border:none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition-duration: 0.3s;
+}
+
+button:hover{
+    background-color: #f9faf8;
+    color: #3882f6
+    ;
+}
+
+.container{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.container-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-right{
+    display: flex;
 
 }
