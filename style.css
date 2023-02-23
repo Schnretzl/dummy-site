@@ -3,13 +3,15 @@
 }
 
 body{
-    background-color: #1f2937;
-    color: white;
+    padding: 0;
+    margin: 0;
 }
 
 header{
     box-sizing: border-box;
+    color: aqua;
     /* margin-left: 60px; */
+
 }
 
 h2{
@@ -38,7 +40,7 @@ a{
 
 h1{
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: extra-bold;
     color: #f9faf8;
     margin-bottom: 10px;
 }
@@ -62,9 +64,12 @@ button:hover{
 
 .container{
     display: flex;
-    padding: 60px;
+    padding-left: 60px;
+    /* padding: 60 0; */
     justify-content: space-between;
     box-sizing: border-box;
+    background-color: #1f2937;
+    margin: 0;
 }
 
 .container-left{
@@ -77,8 +82,8 @@ button:hover{
     margin-bottom: 10px;
 }
 
-.container-left:nth-child(2){
-    color: #e5e7eb;
+.container-left:nth-child(1){
+    color: #e5e7eb
 }
 
 .container-right{
@@ -86,4 +91,19 @@ button:hover{
     width: auto;
     height: 300px;
 
+}
+
+h3{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937
+}
+
+.container2{
+    background-color: white;
+    padding: 1px;
+}
+
+h3{
+    text-align: center;
 }
