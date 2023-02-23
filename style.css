@@ -40,6 +40,7 @@ h1{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 button{
@@ -51,12 +52,12 @@ button{
     border-radius: 8px;
     font-size: 18px;
     transition-duration: 0.3s;
+    margin-top: 20px;
 }
 
 button:hover{
     background-color: #f9faf8;
-    color: #3882f6
-    ;
+    color: #3882f6;
 }
 
 .container{
@@ -72,7 +73,17 @@ button:hover{
     flex-wrap: wrap;
 }
 
+.container-left div, .container-left button{
+    margin-bottom: 10px;
+}
+
+.container-left:nth-child(2){
+    color: #e5e7eb;
+}
+
 .container-right{
     display: flex;
+    width: auto;
+    height: 300px;
 
 }
