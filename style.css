@@ -63,7 +63,6 @@ button:hover{
 .container{
     display: flex;
     padding-left: 60px;
-    /* padding: 60 0; */
     justify-content: space-between;
     box-sizing: border-box;
     background-color: #1f2937;
@@ -121,4 +120,23 @@ h3{
     border-radius: 20px;
     width: 80%;
     height: auto;
+}
+
+.container3{
+    background-color: #e5e7eb;
+    margin: 1px;
+    padding: 80px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.credit{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
 }
